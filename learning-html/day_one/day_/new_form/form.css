@@ -1,0 +1,50 @@
+#form{
+   
+    margin-left: 425px;
+    margin-right: 425px;
+    font-family: Arial, Helvetica, sans-serif; 
+    padding: 25px;
+    border: 1px black solid;
+}
+.text{
+    text-align: center;
+}
+.word{
+    font-weight: 600;
+    display: block;
+}
+.box{
+  display: block;  
+  /* padding-right: 260px; */
+  height: 35px;
+    width: 440px;
+    
+}
+
+.button{
+    /* padding-left: 195px;
+    padding-right: 195px; */
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: rgb(18, 223, 18);
+    border: 0ch;
+    border-radius: 2px;
+    cursor: pointer;
+    height: 35px;
+    width: 440px;
+}
+.animation{
+    text-align: center;
+    padding: 250px;
+    opacity: 0;
+    animation: fadeIn 3s forwards;
+    color: red;
+}
+@keyframes fadeIn{to {
+    opacity: 1;
+}}
+
+/* @media (max-width: 768px) {
+  
+} */
+ 

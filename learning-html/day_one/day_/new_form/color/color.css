@@ -1,0 +1,33 @@
+.rgb{
+    height: 450px;
+    background: rgb(206, 93, 19);
+    /* width: 500px; */
+
+}
+.rgba{
+    height: 450px;
+    background-color: rgba(246, 65, 200, 97);
+    /* width: 500px; */
+}
+.hex{
+    height: 450px;
+    /* width: 500px; */
+   background-color:#09ff90
+}
+.first{
+    background-image: url(./photo-1579353977828-2a4eab540b9a.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 500px;
+}
+
+.second{
+    background-color: aqua;
+    /* width: 500px; */
+
+}
+.gradient{
+    height: 450px;
+    /* width: 500px; */
+    background: linear-gradient(90deg, #ff0909, #ffe676, rgb(136, 255, 0), rgb(62,67,224));
+}
